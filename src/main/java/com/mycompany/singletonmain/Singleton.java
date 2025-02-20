@@ -12,9 +12,8 @@ public class Singleton {
 
     // Eager initialization of instance.
     private static final Singleton INSTANCE = new Singleton();
-    ;
 
-    // Add a private field. Belongs to instace, not the class.
+    // Add a private field. Belongs to instance, not the class.
     private int meaningOfLife;
 
     private Singleton() {
